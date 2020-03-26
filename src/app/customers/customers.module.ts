@@ -6,10 +6,11 @@ import { CustomersListComponent } from './customers-list/customers-list.componen
 
 @NgModule({
   declarations: [
-    CustomersComponent,CustomersListComponent
+    CustomersComponent
+    ,CustomersListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule 
   ],
   providers: [],
  // bootstrap: [AppComponent] 

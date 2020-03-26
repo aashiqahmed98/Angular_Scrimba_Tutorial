@@ -5,11 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //import { CustomersComponent } from './customers/customers.component';
 import {CustomersModule} from './customers/customers.module';
-import { CustomersListComponent } from './customers-list/customers-list.component';
+// import { CustomersListComponent } from './customers-list/customers-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CustomersListComponent,
+   
   //  CustomersComponent
   ],
   imports: [
