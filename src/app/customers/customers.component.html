@@ -1,3 +1,6 @@
-<h1>Customers</h1>
+<h1 [hidden]="!isVisible">Customers</h1>  
+<!-- The binding variable should be in small letter for error-free -->
+
+<button (click)="show()">Show/Hide</button>
 
 <app-customers-list></app-customers-list>
