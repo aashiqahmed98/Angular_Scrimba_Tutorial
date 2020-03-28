@@ -25,7 +25,7 @@ export class CustomersListComponent implements OnInit {
        
     ];
     customersOrderTotal: number;
-    currencyCode: string = 'USD';
+    currencyCode: string = 'INR';
     
     constructor() {}
     
